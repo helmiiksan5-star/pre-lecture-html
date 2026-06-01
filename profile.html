@@ -1,19 +1,100 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="id">
     <title>belajar</title>
   </head>
   <body>
     <header>website saya</header>
+
     <nav>
       <a href="#">home</a>
-      <a href="#">esume</a>
+      <a href="#">resume</a>
       <a href="#">projects</a>
       <a href="#">about us</a>
     </nav>
+
+    <ul>
+      <li>HTML</li>
+      <li>Git</li>
+      <li>
+        <a href="https://github.com/helmiiksan5-star" target="_blank">GitHub</a>
+      </li>
+    </ul>
+
+    <img src="https://via.placeholder.com/150" alt="Foto Profil" />
+
     <section>
       <h2>tentang saya</h2>
       <p>saya sedang belajar html</p>
     </section>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nama Produk</th>
+          <th>Harga</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Paket Starter</td>
+          <td>Rp 50.000</td>
+          <td>Kapasitas 10 GB</td>
+        </tr>
+        <tr>
+          <td>Paket Pro</td>
+          <td>Rp 150.000</td>
+          <td>Kapasitas 100 GB</td>
+        </tr>
+        <tr>
+          <td>Paket Enterprise</td>
+          <td>Rp 350.000</td>
+          <td>Kapasitas Unlimited</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form action="email_cient" method="post">
+      <p>
+        <label>Nama:</label>
+        <input
+          type="text"
+          name="name_user"
+          placeholder="silahkan isi nama anda"
+          required
+        />
+      </p>
+
+      <p>
+        <label>email:</label>
+        <input  action="#" method="post
+          type="email"
+          name="email_client"
+          placeholder="silahkan isi email anda"
+        />
+      </p>
+
+      <p>
+        <label>nomer:</label>
+        <input
+          type="tel"
+          name="nomor_client"
+          placeholder="silahkan isi nomer anda"
+        />
+      </p>
+
+      <p>
+        <label>Isi Pesan:</label><br />
+        <textarea
+          name="pesan_user"
+          placeholder="Tulis pesan Anda di sini..."
+          required
+        ></textarea>
+      </p>
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
     <footer>Copyright 2026</footer>
   </body>
 </html>
